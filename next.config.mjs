@@ -6,6 +6,9 @@ const nextConfig = {
     images: {
         domains: ['avatars.githubusercontent.com'],
     },
+    experimental: {
+        ppr: 'incremental',
+    },
 };
 
 export default nextConfig;
